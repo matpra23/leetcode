@@ -1,9 +1,11 @@
 package org.example;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {8,4,2,30,15};
-        Solution3011 s = new Solution3011();
-        System.out.println(s.canSortArray(arr));
+        int[] arr = {0,1,1,3};
+        Solution1829 s = new Solution1829();
+        System.out.println(Arrays.toString(s.getMaximumXor(arr, 2)));
     }
 }
