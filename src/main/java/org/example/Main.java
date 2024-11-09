@@ -4,8 +4,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arr = {0,1,1,3};
-        Solution1829 s = new Solution1829();
-        System.out.println(Arrays.toString(s.getMaximumXor(arr, 2)));
+        Solution3133 s = new Solution3133();
+        s.minEnd(3, 4);
     }
 }
